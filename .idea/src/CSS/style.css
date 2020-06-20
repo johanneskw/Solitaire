@@ -1,0 +1,100 @@
+.container-1 {
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    color: azure;
+    background: url("https://www.elsetge.cat/myimg/f/70-702760_the-aim-of-the-game-is-to-clear.jpg") center;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.newCardBox {
+    display: flex;
+    flex-flow: column;
+    height: 150px;
+    width: 100px;
+    position: relative;
+}
+
+.newCardBox img {
+    max-height: 150px;
+    max-width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.deckBox img {
+    max-height: 150px;
+    max-width: 100px;
+}
+
+.finSlot {
+    display: flex;
+    flex-flow: column;
+    height: 150px;
+    width: 100px;
+    background-color: black;
+    opacity: 50%;
+    position: relative;
+
+}
+
+
+.filled {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    padding: 20px;
+    opacity: 100%;
+    background-color: transparent;
+}
+
+.filled img {
+    max-height: 150px;
+    max-width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flex-box-container-2 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 450px;
+}
+
+.cardSlot {
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: repeat(30, 20px);
+    justify-content: flex-start;
+    max-height: 350px;
+}
+
+
+.cardSlot img {
+    grid-column-start: 1;
+    max-width: 100px;
+    max-height: 150px;
+
+}
+
+.emptySlot {
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.5;
+}
